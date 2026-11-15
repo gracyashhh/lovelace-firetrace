@@ -1,0 +1,1 @@
+import'dotenv/config';import{Budget}from'../src/budget.js';import{config}from'../src/meta.js';const c=config(),b=new Budget(process.env.BUDGET_DB_PATH||'runtime/accounting.sqlite');console.log(JSON.stringify(b.status(c.total,c.dev),null,2));b.close();

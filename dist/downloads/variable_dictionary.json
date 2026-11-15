@@ -1,0 +1,1538 @@
+{
+  "FLEX": {
+    "test": {
+      "label": "FLEX Test #",
+      "unit": "",
+      "kind": "category",
+      "source_column": 1
+    },
+    "identifier": {
+      "label": "FLEX Identifier",
+      "unit": "",
+      "kind": "category",
+      "source_column": 2
+    },
+    "date": {
+      "label": "Test Date",
+      "unit": "",
+      "kind": "category",
+      "source_column": 3
+    },
+    "gmt": {
+      "label": "Test GMT",
+      "unit": "",
+      "kind": "category",
+      "source_column": 4
+    },
+    "fuel": {
+      "label": "Fuel",
+      "unit": "",
+      "kind": "category",
+      "source_column": 5
+    },
+    "pressure": {
+      "label": "Ambient pressure; mmHg",
+      "unit": "mmHg",
+      "kind": "condition",
+      "source_column": 6
+    },
+    "oxygen": {
+      "label": "O initial ambient composition; mole fraction",
+      "unit": "mole fraction",
+      "kind": "condition",
+      "source_column": 7
+    },
+    "nitrogen": {
+      "label": "N initial ambient composition; mole fraction",
+      "unit": "mole fraction",
+      "kind": "condition",
+      "source_column": 8
+    },
+    "co2": {
+      "label": "CO initial ambient composition; mole fraction",
+      "unit": "mole fraction",
+      "kind": "condition",
+      "source_column": 9
+    },
+    "helium": {
+      "label": "He initial ambient composition; mole fraction",
+      "unit": "mole fraction",
+      "kind": "condition",
+      "source_column": 10
+    },
+    "diameter": {
+      "label": "Droplet initial diameter; mm",
+      "unit": "mm",
+      "kind": "condition",
+      "source_column": 11
+    },
+    "extinction_diameter": {
+      "label": "Visible flame extinction diameter; mm",
+      "unit": "mm",
+      "kind": "measurement",
+      "source_column": 12
+    },
+    "burning_rate": {
+      "label": "Burning rate; mm",
+      "unit": "mm\u00b2/s",
+      "kind": "measurement",
+      "source_column": 13
+    },
+    "burn_time": {
+      "label": "Burn time; s",
+      "unit": "s",
+      "kind": "measurement",
+      "source_column": 14
+    },
+    "test_end": {
+      "label": "Test end",
+      "unit": "",
+      "kind": "category",
+      "source_column": 15
+    }
+  },
+  "BASS-II": {
+    "test": {
+      "label": "Test #",
+      "unit": "",
+      "kind": "category",
+      "source_column": 2
+    },
+    "sample": {
+      "label": "Sample #",
+      "unit": "",
+      "kind": "category",
+      "source_column": 5
+    },
+    "material": {
+      "label": "Fuel Sample Material",
+      "unit": "",
+      "kind": "category",
+      "source_column": 6
+    },
+    "flow_restrictor": {
+      "label": "Flow restrictor",
+      "unit": "setting",
+      "kind": "condition",
+      "source_column": 7
+    },
+    "fan_display": {
+      "label": "Fan display",
+      "unit": "display setting; not calibrated velocity",
+      "kind": "condition",
+      "source_column": 8
+    },
+    "air_display": {
+      "label": "Air display",
+      "unit": "display setting; not calibrated velocity",
+      "kind": "condition",
+      "source_column": 9
+    },
+    "oxygen": {
+      "label": "Calibrated  initial O2 % by vol ",
+      "unit": "% by volume",
+      "kind": "condition",
+      "source_column": 12
+    },
+    "oxygen_final": {
+      "label": "Calibrated final O2 % by vol",
+      "unit": "% by volume",
+      "kind": "measurement",
+      "source_column": 13
+    },
+    "co2": {
+      "label": "Initial CO2 % by vol",
+      "unit": "% by volume",
+      "kind": "condition",
+      "source_column": 14
+    },
+    "co2_final": {
+      "label": "Final CO2 % by vol",
+      "unit": "% by volume",
+      "kind": "measurement",
+      "source_column": 15
+    },
+    "co": {
+      "label": "Initial CO (ppm)",
+      "unit": "ppm",
+      "kind": "condition",
+      "source_column": 16
+    },
+    "co_final": {
+      "label": "Final CO (ppm)",
+      "unit": "ppm",
+      "kind": "measurement",
+      "source_column": 17
+    }
+  },
+  "SAME-R": {
+    "material": {
+      "label": "Sample Type",
+      "unit": "",
+      "kind": "category",
+      "source_column": 2
+    },
+    "sample": {
+      "label": "Sample ID",
+      "unit": "",
+      "kind": "category",
+      "source_column": 3
+    },
+    "test": {
+      "label": "Test ID Number",
+      "unit": "",
+      "kind": "category",
+      "source_column": 4
+    },
+    "same_number": {
+      "label": "SAME #",
+      "unit": "",
+      "kind": "category",
+      "source_column": 6
+    },
+    "description": {
+      "label": "Description",
+      "unit": "",
+      "kind": "category",
+      "source_column": 7
+    },
+    "velocity": {
+      "label": "Inlet Velocity (cm/sec)",
+      "unit": "cm/sec",
+      "kind": "condition",
+      "source_column": 11
+    },
+    "duration": {
+      "label": "Duration (sec)",
+      "unit": "sec",
+      "kind": "condition",
+      "source_column": 13
+    },
+    "aging": {
+      "label": "Net Aging  Duration",
+      "unit": "not explicit in this column",
+      "kind": "derived",
+      "source_column": 18
+    },
+    "obscuration": {
+      "label": "ISS Obscuration (volts)",
+      "unit": "volts",
+      "kind": "measurement",
+      "source_column": 43
+    },
+    "scatter": {
+      "label": "ISS Detector Scatter (volts)",
+      "unit": "volts",
+      "kind": "measurement",
+      "source_column": 44
+    },
+    "particles": {
+      "label": "Ptrak (PT/cc)",
+      "unit": "PT/cc",
+      "kind": "measurement",
+      "source_column": 51
+    },
+    "dust": {
+      "label": "DustTrak B (mg/m3)",
+      "unit": "mg/m3",
+      "kind": "measurement",
+      "source_column": 54
+    },
+    "number_concentration": {
+      "label": "M0 best Diameter (#/cm3)",
+      "unit": "#/cm3",
+      "kind": "derived",
+      "source_column": 56
+    },
+    "mean_diameter": {
+      "label": "M1/M0 (micro-m)--AMD",
+      "unit": "micro-m",
+      "kind": "derived",
+      "source_column": 61
+    },
+    "mass_diameter": {
+      "label": "Diameter of Average mass (micro-m)",
+      "unit": "micro-m",
+      "kind": "derived",
+      "source_column": 62
+    },
+    "temperature": {
+      "label": "T ( C) - Eq. 2 of lrt",
+      "unit": "C; Eq. 2 of lrt",
+      "kind": "derived",
+      "source_column": 78
+    },
+    "mass_loss": {
+      "label": "Mass Loss (mg)",
+      "unit": "mg",
+      "kind": "measurement",
+      "source_column": 79
+    }
+  },
+  "SAFFIRE:sample-1": {
+    "0": {
+      "label": "Elapsed Time (s)",
+      "unit": "s",
+      "kind": "measurement",
+      "source_column": 1
+    },
+    "1": {
+      "label": "Epoch Time",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 2
+    },
+    "3": {
+      "label": "Index",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 4
+    },
+    "4": {
+      "label": "Average Fan Speed",
+      "unit": "RPM",
+      "kind": "measurement",
+      "source_column": 5
+    },
+    "5": {
+      "label": "CO2",
+      "unit": "%",
+      "kind": "measurement",
+      "source_column": 6
+    },
+    "6": {
+      "label": "O2",
+      "unit": "%",
+      "kind": "measurement",
+      "source_column": 7
+    },
+    "7": {
+      "label": "Anemometer 1",
+      "unit": "cm/sec",
+      "kind": "measurement",
+      "source_column": 8
+    },
+    "8": {
+      "label": "Anemometer 2",
+      "unit": "cm/sec",
+      "kind": "measurement",
+      "source_column": 9
+    },
+    "9": {
+      "label": "Ambient Pressure",
+      "unit": "PSIA",
+      "kind": "measurement",
+      "source_column": 10
+    },
+    "10": {
+      "label": "Radiometer 1",
+      "unit": "mW/cm2",
+      "kind": "measurement",
+      "source_column": 11
+    },
+    "11": {
+      "label": "R1 Avg 0-50 s",
+      "unit": "not specified",
+      "kind": "derived",
+      "source_column": 12
+    },
+    "12": {
+      "label": "Downstream Front",
+      "unit": "mW/cm2",
+      "kind": "measurement",
+      "source_column": 13
+    },
+    "13": {
+      "label": "Radiometer 2",
+      "unit": "mW/cm2",
+      "kind": "measurement",
+      "source_column": 14
+    },
+    "14": {
+      "label": "R2 avg 0-50s",
+      "unit": "not specified",
+      "kind": "derived",
+      "source_column": 15
+    },
+    "15": {
+      "label": "Upstream Front",
+      "unit": "mW/cm2",
+      "kind": "measurement",
+      "source_column": 16
+    },
+    "16": {
+      "label": "Radiometer 3",
+      "unit": "mW/cm2",
+      "kind": "measurement",
+      "source_column": 17
+    },
+    "17": {
+      "label": "R3 avg 0-50s",
+      "unit": "not specified",
+      "kind": "derived",
+      "source_column": 18
+    },
+    "18": {
+      "label": "Upstream Back",
+      "unit": "mW/cm2",
+      "kind": "measurement",
+      "source_column": 19
+    },
+    "19": {
+      "label": "Radiometer 4",
+      "unit": "mW/cm2",
+      "kind": "measurement",
+      "source_column": 20
+    },
+    "20": {
+      "label": "R4 Avg 0-50s",
+      "unit": "not specified",
+      "kind": "derived",
+      "source_column": 21
+    },
+    "21": {
+      "label": "Downstream Back",
+      "unit": "mW/cm2",
+      "kind": "measurement",
+      "source_column": 22
+    },
+    "22": {
+      "label": "Humidity",
+      "unit": "%",
+      "kind": "measurement",
+      "source_column": 23
+    },
+    "23": {
+      "label": "Test Section Inlet Temp",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 24
+    },
+    "24": {
+      "label": "Plume Temp 1 (TC1)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 25
+    },
+    "25": {
+      "label": "Plume Temp 2 (TC2)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 26
+    },
+    "26": {
+      "label": "Plume Temp 3 (TC3)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 27
+    },
+    "27": {
+      "label": "Plume Temp 4 (TC4)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 28
+    },
+    "28": {
+      "label": "Plume Temp 5 (TC5)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 29
+    },
+    "29": {
+      "label": "Plume Temp 6 (TC6)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 30
+    },
+    "30": {
+      "label": "Sample Temp 1 (TC7)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 31
+    },
+    "31": {
+      "label": "Sample Temp 2 (TC8)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 32
+    },
+    "32": {
+      "label": "Sample Temp 3 (TC9)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 33
+    },
+    "33": {
+      "label": "Sample Temp 4 (TC10)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 34
+    },
+    "34": {
+      "label": "Sample Temp 5 (TC11)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 35
+    },
+    "35": {
+      "label": "Sample Temp 6 (TC12)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 36
+    },
+    "36": {
+      "label": "Radiometer Temp 1",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 37
+    },
+    "37": {
+      "label": "Radiometer Temp 2",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 38
+    },
+    "38": {
+      "label": "Radiometer Temp 3",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 39
+    },
+    "39": {
+      "label": "Radiometer Temp 4",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 40
+    },
+    "40": {
+      "label": "Igniter Current",
+      "unit": "Amps",
+      "kind": "measurement",
+      "source_column": 41
+    },
+    "41": {
+      "label": "Igniter Voltage",
+      "unit": "Volts",
+      "kind": "measurement",
+      "source_column": 42
+    },
+    "42": {
+      "label": "Avionics H&S Temp 1",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 43
+    },
+    "43": {
+      "label": "Avionics H&S Temp 2",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 44
+    },
+    "44": {
+      "label": "Avionics H&S Temp 3",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 45
+    },
+    "45": {
+      "label": "Avionics 24V",
+      "unit": "Volts",
+      "kind": "measurement",
+      "source_column": 46
+    },
+    "46": {
+      "label": "PC104 5V",
+      "unit": "Volts",
+      "kind": "measurement",
+      "source_column": 47
+    },
+    "47": {
+      "label": "PC104 -12V",
+      "unit": "Volts",
+      "kind": "measurement",
+      "source_column": 48
+    },
+    "48": {
+      "label": "PC104 +12V",
+      "unit": "Volts",
+      "kind": "measurement",
+      "source_column": 49
+    },
+    "49": {
+      "label": "Igniter Voltage Set Point",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 50
+    },
+    "50": {
+      "label": "Fan Speed Control",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 51
+    },
+    "51": {
+      "label": "Igniter Power Enable",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 52
+    },
+    "52": {
+      "label": "Igniter Select 1",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 53
+    },
+    "53": {
+      "label": "Igniter Select 2",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 54
+    },
+    "54": {
+      "label": "Igniter Select 3",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 55
+    },
+    "55": {
+      "label": "Igniter Select 4",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 56
+    },
+    "56": {
+      "label": "Igniter Select 5",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 57
+    },
+    "57": {
+      "label": "Igniter Select 6",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 58
+    },
+    "58": {
+      "label": "Igniter Select 7",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 59
+    },
+    "59": {
+      "label": "Igniter Select 8",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 60
+    },
+    "60": {
+      "label": "Igniter Select 9",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 61
+    },
+    "61": {
+      "label": "Smoke Wire Select",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 62
+    },
+    "62": {
+      "label": "LED Power 1",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 63
+    },
+    "63": {
+      "label": "Camera 1 Trigger",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 64
+    },
+    "64": {
+      "label": "Camera 2 Trigger",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 65
+    },
+    "65": {
+      "label": "GSE DIO0",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 66
+    },
+    "66": {
+      "label": "GSE DIO1",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 67
+    },
+    "67": {
+      "label": "Camera 1 Power Control",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 68
+    },
+    "68": {
+      "label": "Camera 2 Power Control",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 69
+    },
+    "69": {
+      "label": "Anemometer Power Control 1&2",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 70
+    },
+    "70": {
+      "label": "O2 & CO2 Power Control",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 71
+    },
+    "71": {
+      "label": "Test Section Fan Power Control",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 72
+    },
+    "72": {
+      "label": "Fan Tach /100",
+      "unit": "not specified",
+      "kind": "derived",
+      "source_column": 73
+    }
+  },
+  "SAFFIRE:sample-1-camera": {
+    "0": {
+      "label": "Time (s)",
+      "unit": "s",
+      "kind": "measurement",
+      "source_column": 1
+    },
+    "1": {
+      "label": "Epoch Time (ms)",
+      "unit": "ms",
+      "kind": "measurement",
+      "source_column": 2
+    },
+    "2": {
+      "label": "Exposure",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 3
+    },
+    "3": {
+      "label": "Gain",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 4
+    },
+    "5": {
+      "label": "Time (s)",
+      "unit": "s",
+      "kind": "measurement",
+      "source_column": 6
+    },
+    "6": {
+      "label": "Epoch Time (ms)",
+      "unit": "ms",
+      "kind": "measurement",
+      "source_column": 7
+    },
+    "7": {
+      "label": "Exposure",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 8
+    },
+    "8": {
+      "label": "Gain",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 9
+    }
+  },
+  "SAFFIRE:sample-2": {
+    "0": {
+      "label": "Elapsed Time (s)",
+      "unit": "s",
+      "kind": "measurement",
+      "source_column": 1
+    },
+    "1": {
+      "label": "Epoch Time",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 2
+    },
+    "3": {
+      "label": "Index",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 4
+    },
+    "4": {
+      "label": "Average Fan Speed",
+      "unit": "RPM",
+      "kind": "measurement",
+      "source_column": 5
+    },
+    "5": {
+      "label": "CO2",
+      "unit": "%",
+      "kind": "measurement",
+      "source_column": 6
+    },
+    "6": {
+      "label": "O2",
+      "unit": "%",
+      "kind": "measurement",
+      "source_column": 7
+    },
+    "7": {
+      "label": "Anemometer 1",
+      "unit": "cm/sec",
+      "kind": "measurement",
+      "source_column": 8
+    },
+    "8": {
+      "label": "Anemometer 2",
+      "unit": "cm/sec",
+      "kind": "measurement",
+      "source_column": 9
+    },
+    "9": {
+      "label": "Ambient Pressure",
+      "unit": "PSIA",
+      "kind": "measurement",
+      "source_column": 10
+    },
+    "10": {
+      "label": "Radiometer 1",
+      "unit": "mw/cm^2",
+      "kind": "measurement",
+      "source_column": 11
+    },
+    "12": {
+      "label": "Downstream Front",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 13
+    },
+    "13": {
+      "label": "Radiometer 2",
+      "unit": "mw/cm^2",
+      "kind": "measurement",
+      "source_column": 14
+    },
+    "15": {
+      "label": "Upstream Front",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 16
+    },
+    "16": {
+      "label": "Radiometer 3",
+      "unit": "mw/cm^2",
+      "kind": "measurement",
+      "source_column": 17
+    },
+    "18": {
+      "label": "Upstream Back",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 19
+    },
+    "19": {
+      "label": "Radiometer 4",
+      "unit": "mw/cm^2",
+      "kind": "measurement",
+      "source_column": 20
+    },
+    "21": {
+      "label": "Downstream Back",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 22
+    },
+    "22": {
+      "label": "Humidity",
+      "unit": "%",
+      "kind": "measurement",
+      "source_column": 23
+    },
+    "23": {
+      "label": "Test Section Inlet Temp",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 24
+    },
+    "24": {
+      "label": "Plume Temp 1 (TC1)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 25
+    },
+    "25": {
+      "label": "Plume Temp 2 (TC2)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 26
+    },
+    "26": {
+      "label": "Plume Temp 3 (TC3)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 27
+    },
+    "27": {
+      "label": "Plume Temp 4 (TC4)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 28
+    },
+    "28": {
+      "label": "Plume Temp 5 (TC5)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 29
+    },
+    "29": {
+      "label": "Plume Temp 6 (TC6)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 30
+    },
+    "30": {
+      "label": "Sample Temp 1 (TC7)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 31
+    },
+    "31": {
+      "label": "Sample Temp 2 (TC8)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 32
+    },
+    "32": {
+      "label": "Sample Temp 3 (TC9)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 33
+    },
+    "33": {
+      "label": "Sample Temp 4 (TC10)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 34
+    },
+    "34": {
+      "label": "Sample Temp 5 (TC11)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 35
+    },
+    "35": {
+      "label": "Sample Temp 6 (TC12)",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 36
+    },
+    "36": {
+      "label": "Radiometer Temp 1",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 37
+    },
+    "37": {
+      "label": "Radiometer Temp 2",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 38
+    },
+    "38": {
+      "label": "Radiometer Temp 3",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 39
+    },
+    "39": {
+      "label": "Radiometer Temp 4",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 40
+    },
+    "40": {
+      "label": "Igniter Current",
+      "unit": "Amps",
+      "kind": "measurement",
+      "source_column": 41
+    },
+    "41": {
+      "label": "Igniter Voltage",
+      "unit": "Volts",
+      "kind": "measurement",
+      "source_column": 42
+    },
+    "42": {
+      "label": "Avionics H&S Temp 1",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 43
+    },
+    "43": {
+      "label": "Avionics H&S Temp 2",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 44
+    },
+    "44": {
+      "label": "Avionics H&S Temp 3",
+      "unit": "Degrees C",
+      "kind": "measurement",
+      "source_column": 45
+    },
+    "45": {
+      "label": "Avionics 24V",
+      "unit": "Volts",
+      "kind": "measurement",
+      "source_column": 46
+    },
+    "46": {
+      "label": "PC104 5V",
+      "unit": "Volts",
+      "kind": "measurement",
+      "source_column": 47
+    },
+    "47": {
+      "label": "PC104 -12V",
+      "unit": "Volts",
+      "kind": "measurement",
+      "source_column": 48
+    },
+    "48": {
+      "label": "PC104 +12V",
+      "unit": "Volts",
+      "kind": "measurement",
+      "source_column": 49
+    },
+    "49": {
+      "label": "Igniter Voltage Set Point",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 50
+    },
+    "50": {
+      "label": "Fan Speed Control",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 51
+    },
+    "51": {
+      "label": "Igniter Power Enable",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 52
+    },
+    "52": {
+      "label": "Igniter Select 1",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 53
+    },
+    "53": {
+      "label": "Igniter Select 2",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 54
+    },
+    "54": {
+      "label": "Igniter Select 3",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 55
+    },
+    "55": {
+      "label": "Igniter Select 4",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 56
+    },
+    "56": {
+      "label": "Igniter Select 5",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 57
+    },
+    "57": {
+      "label": "Igniter Select 6",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 58
+    },
+    "58": {
+      "label": "Igniter Select 7",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 59
+    },
+    "59": {
+      "label": "Igniter Select 8",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 60
+    },
+    "60": {
+      "label": "Igniter Select 9",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 61
+    },
+    "61": {
+      "label": "Smoke Wire Select",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 62
+    },
+    "62": {
+      "label": "LED Power 1",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 63
+    },
+    "63": {
+      "label": "Camera 1 Trigger",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 64
+    },
+    "64": {
+      "label": "Camera 2 Trigger",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 65
+    },
+    "65": {
+      "label": "GSE DIO0",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 66
+    },
+    "66": {
+      "label": "GSE DIO1",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 67
+    },
+    "67": {
+      "label": "Camera 1 Power Control",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 68
+    },
+    "68": {
+      "label": "Camera 2 Power Control",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 69
+    },
+    "69": {
+      "label": "Anemometer Power Control 1&2",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 70
+    },
+    "70": {
+      "label": "O2 & CO2 Power Control",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 71
+    },
+    "71": {
+      "label": "Test Section Fan Power Control",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 72
+    },
+    "72": {
+      "label": "Fan Tach /100",
+      "unit": "not specified",
+      "kind": "derived",
+      "source_column": 73
+    }
+  },
+  "SAFFIRE:sample-2-camera": {
+    "0": {
+      "label": "Time (s)",
+      "unit": "s",
+      "kind": "measurement",
+      "source_column": 1
+    },
+    "1": {
+      "label": "Epoch Time (ms)",
+      "unit": "ms",
+      "kind": "measurement",
+      "source_column": 2
+    },
+    "2": {
+      "label": "Exposure",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 3
+    },
+    "3": {
+      "label": "Gain",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 4
+    },
+    "5": {
+      "label": "Time (s)",
+      "unit": "s",
+      "kind": "measurement",
+      "source_column": 6
+    },
+    "6": {
+      "label": "Epoch Time (ms)",
+      "unit": "ms",
+      "kind": "measurement",
+      "source_column": 7
+    },
+    "7": {
+      "label": "Exposure",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 8
+    },
+    "8": {
+      "label": "Gain",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 9
+    }
+  },
+  "SAFFIRE:telemetry-cygnus": {
+    "0": {
+      "label": "CygnusTimestamp",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 1
+    },
+    "1": {
+      "label": "Relative Time (ms)",
+      "unit": "ms",
+      "kind": "derived",
+      "source_column": 2
+    },
+    "2": {
+      "label": "Relative Time (s)",
+      "unit": "s",
+      "kind": "derived",
+      "source_column": 3
+    },
+    "3": {
+      "label": "PCM Air Temp (degC)",
+      "unit": "degC",
+      "kind": "measurement",
+      "source_column": 4
+    },
+    "4": {
+      "label": "PCM Press (psi)",
+      "unit": "psi",
+      "kind": "measurement",
+      "source_column": 5
+    },
+    "5": {
+      "label": "PCM Press/Temp (psi/K)",
+      "unit": "psi/K",
+      "kind": "derived",
+      "source_column": 6
+    },
+    "6": {
+      "label": "FIZ1 Smoke Detector Obscuration  (V)",
+      "unit": "V",
+      "kind": "measurement",
+      "source_column": 7
+    },
+    "7": {
+      "label": "FIZ 2 Smoke Detector Obscuration (V)",
+      "unit": "V",
+      "kind": "measurement",
+      "source_column": 8
+    },
+    "8": {
+      "label": "FIZ 1 Smoke Detector Scatterometer (V)",
+      "unit": "V",
+      "kind": "measurement",
+      "source_column": 9
+    },
+    "9": {
+      "label": "FIZ 2 Smoke Detector Scatterometer (V)",
+      "unit": "V",
+      "kind": "measurement",
+      "source_column": 10
+    },
+    "10": {
+      "label": "FIZ 1 Cabin Fan delta P (Pa)",
+      "unit": "Pa",
+      "kind": "derived",
+      "source_column": 11
+    },
+    "11": {
+      "label": "FIZ 2 Cabin Fan Delta P (Pa)",
+      "unit": "Pa",
+      "kind": "derived",
+      "source_column": 12
+    },
+    "12": {
+      "label": "body rate x axis (rad/s)",
+      "unit": "rad/s",
+      "kind": "measurement",
+      "source_column": 13
+    },
+    "13": {
+      "label": "body rate y axis (rad/s)",
+      "unit": "rad/s",
+      "kind": "measurement",
+      "source_column": 14
+    },
+    "14": {
+      "label": "body rate z axis (rad/s)",
+      "unit": "rad/s",
+      "kind": "measurement",
+      "source_column": 15
+    },
+    "15": {
+      "label": "acceleration x axis (m/s^2)",
+      "unit": "m/s^2",
+      "kind": "measurement",
+      "source_column": 16
+    },
+    "16": {
+      "label": "acceleration y axis (m/s^2)",
+      "unit": "m/s^2",
+      "kind": "measurement",
+      "source_column": 17
+    },
+    "17": {
+      "label": "acceleration z axis (m/s^2)",
+      "unit": "m/s^2",
+      "kind": "measurement",
+      "source_column": 18
+    },
+    "19": {
+      "label": "Cygnus-Saffire Time Stamp (ms)",
+      "unit": "ms",
+      "kind": "measurement",
+      "source_column": 20
+    },
+    "22": {
+      "label": "Saffire timestamp row-to-row delta t (ms)",
+      "unit": "ms",
+      "kind": "derived",
+      "source_column": 23
+    }
+  },
+  "SAFFIRE:telemetry-saffire": {
+    "0": {
+      "label": "SaffireTimestamp",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 1
+    },
+    "1": {
+      "label": "delta timestamp (ms)",
+      "unit": "ms",
+      "kind": "derived",
+      "source_column": 2
+    },
+    "2": {
+      "label": "Relative Time (ms)",
+      "unit": "ms",
+      "kind": "derived",
+      "source_column": 3
+    },
+    "3": {
+      "label": "Relative Time (s)",
+      "unit": "s",
+      "kind": "derived",
+      "source_column": 4
+    },
+    "4": {
+      "label": "Radiometer1Value",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 5
+    },
+    "5": {
+      "label": "Radiometer2Value",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 6
+    },
+    "6": {
+      "label": "Radiometer3Value",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 7
+    },
+    "7": {
+      "label": "Radiometer4Value",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 8
+    },
+    "8": {
+      "label": "Anemometer1",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 9
+    },
+    "9": {
+      "label": "Anemometer2",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 10
+    },
+    "10": {
+      "label": "FanTachometer",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 11
+    },
+    "11": {
+      "label": "SmokeWireV",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 12
+    },
+    "12": {
+      "label": "SmokeWireI",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 13
+    },
+    "13": {
+      "label": "Sample1IgniterV",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 14
+    },
+    "14": {
+      "label": "Sample1IgniterI",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 15
+    },
+    "15": {
+      "label": "Sample2IgniterV",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 16
+    },
+    "16": {
+      "label": "Sample2IgniterI",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 17
+    },
+    "17": {
+      "label": "Sample3IgniterV",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 18
+    },
+    "18": {
+      "label": "Sample3IgniterI",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 19
+    },
+    "19": {
+      "label": "Sample4IgniterV",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 20
+    },
+    "20": {
+      "label": "Sample4IgniterI",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 21
+    },
+    "21": {
+      "label": "Sample5IgniterV",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 22
+    },
+    "22": {
+      "label": "Sample5IgniterI",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 23
+    },
+    "23": {
+      "label": "Sample6IgniterV",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 24
+    },
+    "24": {
+      "label": "Sample6IgniterI",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 25
+    },
+    "25": {
+      "label": "Sample7IgniterV",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 26
+    },
+    "26": {
+      "label": "Sample7IgniterI",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 27
+    },
+    "27": {
+      "label": "Sample8IgniterV",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 28
+    },
+    "28": {
+      "label": "Sample8IgniterI",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 29
+    },
+    "29": {
+      "label": "Sample9IgniterV",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 30
+    },
+    "30": {
+      "label": "Sample9IgniterI",
+      "unit": "not specified",
+      "kind": "measurement",
+      "source_column": 31
+    },
+    "31": {
+      "label": "Rel-to-Cygnus Time (s)",
+      "unit": "s",
+      "kind": "measurement",
+      "source_column": 32
+    },
+    "32": {
+      "label": "Tach/100",
+      "unit": "not specified",
+      "kind": "derived",
+      "source_column": 33
+    }
+  }
+}
