@@ -10,6 +10,7 @@ import { answerWithGemini, config } from './gemini.js';
 const root = process.cwd();
 const cat = JSON.parse(readFileSync(resolve(root, 'data/prepared/catalog.json'), 'utf8')) as Catalog;
 const app = express();
+app.set('trust proxy', 1);
 const settings = config();
 
 let budget: Budget | undefined;
